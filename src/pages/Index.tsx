@@ -34,7 +34,7 @@ const Index = () => {
       <main className="container max-w-4xl mx-auto px-4 pt-10 md:pt-14 pb-10 md:pb-16">
         <div className="mb-8 text-left">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-2">Book Your 1-on-1 Call</h1>
-          <p className="text-muted-foreground text-base md:text-lg">Schedule your 1-on-1 session below with Jake</p>
+          <p className="text-muted-foreground text-base md:text-lg">Schedule your 1-on-1 session below</p>
         </div>
 
         <div className="space-y-3">

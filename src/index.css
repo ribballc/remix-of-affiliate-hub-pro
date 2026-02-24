@@ -72,10 +72,16 @@
     @apply border-border;
   }
 
+  html,
   body {
     @apply bg-background text-foreground antialiased;
     font-family: 'Inter', 'Montserrat', system-ui, sans-serif;
     font-weight: 400;
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
   }
 
   h1, h2, h3, h4, h5, h6 {
