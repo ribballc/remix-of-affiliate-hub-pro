@@ -27,4 +27,6 @@ export type AffiliateRow = {
   last_active: string | null;
   created_at: string;
   updated_at: string;
+  /** Optional: from AI matching or view; show AI Match bar when present */
+  ai_match_score?: number | null;
 };

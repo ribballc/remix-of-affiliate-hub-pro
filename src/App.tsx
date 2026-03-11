@@ -8,6 +8,8 @@ import DashboardLayout from "./layouts/DashboardLayout";
 import DashboardOverview from "./pages/dashboard/Overview";
 import DashboardAffiliates from "./pages/dashboard/Affiliates";
 import DiscoverAffiliates from "./pages/dashboard/DiscoverAffiliates";
+import AffiliateDiscover from "./pages/dashboard/AffiliateDiscover";
+import CreatorFeed from "./pages/dashboard/CreatorFeed";
 import Segments from "./pages/dashboard/Segments";
 import DashboardOutreach from "./pages/dashboard/Outreach";
 import Sequences from "./pages/dashboard/outreach/Sequences";
@@ -30,6 +32,8 @@ const App = () => (
             <Route path="overview" element={<DashboardOverview />} />
             <Route path="affiliates" element={<DashboardAffiliates />} />
             <Route path="affiliates/discover" element={<DiscoverAffiliates />} />
+            <Route path="affiliates/discover-affiliates" element={<AffiliateDiscover />} />
+            <Route path="affiliates/feed" element={<CreatorFeed />} />
             <Route path="affiliates/segments" element={<Segments />} />
             <Route path="outreach" element={<DashboardOutreach />} />
             <Route path="outreach/sequences" element={<Sequences />} />

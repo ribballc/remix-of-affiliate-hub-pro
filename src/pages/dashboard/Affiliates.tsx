@@ -12,6 +12,7 @@ import {
   Send,
   Compass,
   FolderGit2,
+  Video,
 } from "lucide-react";
 import {
   affiliates as initialAffiliates,
@@ -288,6 +289,17 @@ export default function DashboardAffiliates() {
           <Link to="/dashboard/affiliates/discover">
             <Compass className="h-4 w-4" />
             Discover
+          </Link>
+        </Button>
+        <Button variant="outline" className="gap-2 shrink-0 border-border" asChild>
+          <Link to="/dashboard/affiliates/discover-affiliates">
+            Discover (Supabase)
+          </Link>
+        </Button>
+        <Button variant="outline" className="gap-2 shrink-0 border-border" asChild>
+          <Link to="/dashboard/affiliates/feed">
+            <Video className="h-4 w-4" />
+            Creator Feed
           </Link>
         </Button>
         <Button variant="outline" className="gap-2 shrink-0 border-border" asChild>

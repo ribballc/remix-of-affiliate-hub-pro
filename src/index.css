@@ -103,4 +103,44 @@
     @apply absolute -top-2 -right-2 bg-primary text-primary-foreground text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wide;
     transform: rotate(12deg);
   }
+
+  .dashboard-sidebar {
+    @apply fixed left-0 top-0 h-screen w-60 bg-background border-r border-border flex flex-col z-40;
+  }
+
+  .dashboard-main {
+    @apply ml-60 min-h-screen bg-background;
+  }
+
+  .nav-item {
+    @apply flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm text-muted-foreground hover:text-foreground hover:bg-muted transition-all duration-200 cursor-pointer;
+  }
+
+  .nav-item-active {
+    @apply nav-item text-foreground bg-muted border-l-2 border-primary;
+  }
+
+  .stat-card {
+    @apply bg-card border border-border rounded-2xl p-5;
+  }
+
+  .stat-number {
+    @apply text-2xl font-bold text-foreground;
+  }
+
+  .stat-label {
+    @apply text-xs text-muted-foreground uppercase tracking-wider mt-1;
+  }
+
+  .page-header {
+    @apply flex items-center justify-between mb-8;
+  }
+
+  .page-title {
+    @apply text-2xl font-bold text-foreground;
+  }
+
+  .section-card {
+    @apply bg-card border border-border rounded-2xl;
+  }
 }
